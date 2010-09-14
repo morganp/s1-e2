@@ -1,9 +1,9 @@
 GitBadge
 ========
 
-A rewards system of git hub.
+A rewards system for git hub.
 
-Examples in the example older
+Examples in the example folder
 
 
     ruby example1.rb
