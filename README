@@ -1,3 +1,36 @@
+GitBadge
+========
+
+A rewards system of git hub.
+
+Examples in the example older
+
+
+    ruby example1.rb
+
+This demonstrates creating a new user and creating a repo.
+
+    ruby example2.rb
+
+Demonstrates multiple commits and users winning static badges (That they can not loose) and dynamic badges which can be lost and won by others actions.
+
+    ruby example3.rb
+
+This demonstrates the 'Top Commiter' badge, a dynamic badge awarded to the top 50% of users
+
+Short demo (mostly covered in example1.rb)
+
+    require  'git_badge'
+
+    app  = GitBadge::Core.new
+    anne = app.new_person("Anne") 
+    anne.new_repository("RMU-s1-e2")
+    anne.repository[0].commit
+
+
+The original Requirments
+------------------------
+
 -- RMU SESSION #1 | PROBLEM 2
 -- Submissions due 12:00 UTC 2010.09.15
 
